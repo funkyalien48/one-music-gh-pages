@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Anya Solo Music Official</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<!-- 
+<?php
+$errors = [];
+$errorMessage = '';
+
+if (!empty($_POST)) {
+   $name = $_POST['name'];
+   $email = $_POST['email'];
+   $message = $_POST['message'];
+
+   if (empty($name)) {
+       $errors[] = 'Name is empty';
+   }
+
+   if (empty($email)) {
+       $errors[] = 'Email is empty';
+   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+       $errors[] = 'Email is invalid';
+   }
+
+   if (empty($message)) {
+       $errors[] = 'Message is empty';
+   }
+
+   if (empty($errors)) {
+       $toEmail = 'example@example.com';
+       $emailSubject = 'New email from your contact form';
+       $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
+       $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Message:", $message];
+       $body = join(PHP_EOL, $bodyParagraphs);
+
+       if (mail($toEmail, $emailSubject, $body, $headers)) 
+
+           header('Location: thank-you.html');
+       } else {
+           $errorMessage = 'Oops, something went wrong. Please try again later';
+       }
+
+   } else {
+
+       $allErrors = join('<br/>', $errors);
+       $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+   }
+}
+<?php -->
+
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="oneMusic-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                        
+                                    <li><a href="event.html">Events</a></li>
+                                    <li><a href="blog.html">News</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+
+                                <!-- Login/Register & Cart Button -->
+                                <div class="login-register-cart-button d-flex align-items-center">
+                                    <!-- Login/Register -->
+                                    <div class="login-register-btn mr-50">
+                                        <a href="login.html" id="loginBtn">Login / Register</a>
+                                    </div>
+
+                                    <!-- Cart Button -->
+                                    <div class="cart-btn">
+                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/anya.png);"></div>
+                <!-- Slide Content -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h6 data-animation="fadeInUp" data-delay="100ms">Songwriter</h6>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Anya Solo <span>Anya Solo</span></h2>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="https://distrokid.com/hyperfollow/shib/wo-u" class="btn oneMusic-btn mt-50">Discover <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/wou-small.jpeg);"></div>
+                <!-- Slide Content -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h6 data-animation="fadeInUp" data-delay="100ms">Latest album</h6>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">W/O U <span>W/O U</span></h2>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="https://distrokid.com/hyperfollow/shib/wo-u" class="btn oneMusic-btn mt-50">Discover <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Latest Albums Area Start ##### -->
+    <section class="latest-albums-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <p>See what’s new</p>
+                        <h2>BIO</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-9">
+                    <div class="ablums-text text-center mb-70">
+                    
+                        <p>Software Developer by day, musicial virtiuso by day - 22 year old Anya Solo is a self-taught songwriter, music producer, and multi-instrumentalist, which has exceeds societal expectations by thus-far completely individually creating her extensive musical portfolio.  Among her many creative roles, she wears more hats - working in cinima arts and finding herself a student of life besides. 
+<br/><br/>
+Previously known as Shib, Anya Solo makes art purely out of love. Out of her 15+ experience of writing, you will hear no one genre - rather, a cultivation of something entirely and earnestly personal. 
+<br/><br/>
+In fact, only approximately 1% of this nerdy girls music is out in the world to be heard; the remaining 99% is stored safely on her Macbook - until further notice - once the perfectionism finds its way out of her consciousness. Or atleast, mutes itself ever so slightly..
+
+
+<br/><br/>Feel free to browse around, and contact her with any questions or business inquires. Always happy to make some art.
+<br/><br/>
+Thanks for listening and being here! 
+</p>
+                    </div>
+                </div>
+            </div>
+
+    <!-- ##### Newsletter & Testimonials Area Start ##### -->
+    <section class="newsletter-testimonials-area">
+        <div class="container">
+            <div class="row">
+
+                <!-- Newsletter Area -->
+                <div class="col-12 col-lg-6">
+                    <div class="newsletter-area mb-10">
+                        <div class="section-heading text-left mb-10">
+                            <p>See what’s new</p>
+                            <h2>Subscribe to newsletter</h2>
+                        </div>
+                        <div class="newsletter-form">
+                            <form action="#">
+                                <input type="search" name="search" id="newsletterSearch" placeholder="E-mail">
+                                <button type="submit" class="btn oneMusic-btn">Subscribe <i class="fa fa-angle-double-right"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials Area -->
+                <div class="col-12 col-lg-6">
+                    <div class="testimonials-area mb-100 bg-img bg-overlay" style="background-image: url(img/piano.jpeg);">
+                        <div class="section-heading white text-left mb-50">
+                            <p>See what’s new</p>
+                            <h2>Testimonial</h2>
+                        </div>
+                        <!-- Testimonial Slide -->
+                        <div class="testimonials-slide owl-carousel">
+
+                                   <!-- Single Slide -->
+                                   <div class="single-slide">
+                                    <p>
+                                    
+                                        Anya has a raw artistic passion that explodes out of her music, which is becoming rarer to find. Inside each of her
+                                        musical choices lies a sense of honesty, self-identity, and emotional maturity. 
+                                        <br/> 
+                                        The dedication of time,
+                                        energy, and love Anya commits to her projects resonates with true human creation and artistic
+                                        expression.
+                                        <br/>  
+                                  
+                                        I know you will find her as inspirational as I do.
+                                        
+                                        </p>
+                                        
+                                        <div class="testimonial-info d-flex align-items-center">
+                                        <div class="testimonial-thumb">
+                                            <img src="img/bg-img/pa7.jpg" alt="">
+                                        </div>
+                                        <p>Sylvia H. - Videographer</p>
+                                    </div>
+                                </div>
+
+                            <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>
+                                
+                                   
+                                    Anyas music, and her personality, resonate with a true range of deep human emotion. Listening
+                                    to her songs gives me hope for the future, for humanity, with her sense of exploration, of adventure, of
+                                    sadness and optimism.
+                                    <br/>
+                                     It is incredibly refreshing to have been given the opportunity to work with Anya
+                                    and call her a professional friend.
+                                    
+                                    </p>
+                                    
+                                    <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/e5.jpg" alt="">
+                                    </div>
+                                    <p>Michael W. - Videographer</p>
+                                </div>
+                            </div>
+
+
+                               <!-- Single Slide -->
+                               <div class="single-slide">
+                                <p>While her attitude
+towards academics is exceptional, what is most notable about Anya, in my opinion, is her
+pleasantness. She is consistently respectful, and it is always delightful working with her.
+                                    
+                                    </p>
+                                    
+                                    <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/t1.jpg" alt="">
+                                    </div>
+                                    <p>Albert G. - Guitarist & Instructor</p>
+                                </div>
+                            </div>
+
+                               <!-- Single Slide -->
+                               <div class="single-slide">
+                                <p>       <p>Anya Solodky is one of the most passionate, intelligent, openminded people I have met. <br/> 
+                                    She's self taught at everything she does, including but not limited to singing, acoustic guitar,
+                                    piano, and music production.  
+                                    </p>
+                                    
+                                    <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/pa4.jpg" alt="">
+                                    </div>
+                                    <p>Bryan C. - Audio Engineer</p>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Single Slide -->
+                            <div class="single-slide">
+                         
+                                    Anya Solo would be a perfect fit for any project not
+                                    only because of her raw talent, but because of her burning passion for the arts, constant
+                                    positive attitude and incredibly strong desire to always learn.
+                                   
+                                    </p>
+                                        <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/pa6.jpg" alt="">
+                                    </div>
+                                    <p>Bradley F. - Music Producer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Newsletter & Testimonials Area End ##### -->
+
+
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/piano.jpeg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading white wow fadeInUp" data-wow-delay="100ms">
+                        <p>See what’s new</p>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contact Form Area -->
+                    <div class="contact-form-area">
+                    
+                        <form method="POST" action="form.php" id="contact-form">
+                         <!-- <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?> -->
+  
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="100ms">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="200ms">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="300ms">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="400ms">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center wow fadeInUp" data-wow-delay="500ms">
+                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-6">
+                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                    <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+                    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                    border-radius: 8px; will-change: transform;">
+                     <iframe loading="lazy" style="position: absolute; width: 50%; height: 50%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                       src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFQfaIAcAI&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                     </iframe>
+                   </div>
+                   <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFQfaIAcAI&#x2F;view?utm_content=DAFQfaIAcAI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+
+                    <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This site is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Anya Solo</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Albums</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    
+    <!--for validation-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    
+    
+    <!--anyaaa-->
+    
+    <script>
+   const constraints = {
+       name: {
+           presence: { allowEmpty: false }
+       },
+       email: {
+           presence: { allowEmpty: false },
+           email: true
+       },
+       message: {
+           presence: { allowEmpty: false }
+       }
+   };
+
+   const form = document.getElementById('contact-form');
+
+   form.addEventListener('submit', function (event) {
+     const formValues = {
+         name: form.elements.name.value,
+         email: form.elements.email.value,
+         message: form.elements.message.value
+     };
+
+     const errors = validate(formValues, constraints);
+
+     if (errors) {
+       event.preventDefault();
+       const errorMessage = Object
+           .values(errors)
+           .map(function (fieldValues) { return fieldValues.join(', ')})
+           .join("\n");
+
+       alert(errorMessage);
+     }
+   }, false);
+</script>
+
+
+<!-- 
+<?php
+
+$errors = [];
+
+if (!empty($_POST)) {
+   $name = $_POST['name'];
+   $email = $_POST['email'];
+   $message = $_POST['message'];
+  
+   if (empty($name)) {
+       $errors[] = 'Name is empty';
+   }
+
+   if (empty($email)) {
+       $errors[] = 'Email is empty';
+   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+       $errors[] = 'Email is invalid';
+   }
+
+   if (empty($message)) {
+       $errors[] = 'Message is empty';
+   }
+}
+?>
+
+
+<?php
+if (!empty($errors)) {
+   $allErrors = join('<br/>', $errors);
+   $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+}
+
+?> -->
+    
+</body>
+
+</html>
